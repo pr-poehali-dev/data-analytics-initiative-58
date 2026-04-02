@@ -51,15 +51,14 @@ export function Contact() {
                 isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
               }`}
             >
-              Готовы начать?
+              Напишите мне
             </h2>
             <p
               className={`text-muted-foreground leading-relaxed mb-12 max-w-md transition-all duration-1000 delay-300 ${
                 isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
               }`}
             >
-              Каждое осмысленное пространство начинается с разговора. Расскажите о вашем видении,
-              и мы вместе найдём способ воплотить его в жизнь.
+              Есть вопрос, тема для статьи или просто хотите поделиться мыслями — пишите. Я отвечаю каждому.
             </p>
 
             {/* Contact Info */}
@@ -75,8 +74,8 @@ export function Contact() {
                 </a>
               </div>
               <div>
-                <p className="text-xs tracking-widest uppercase text-muted-foreground mb-2">Локация</p>
-                <p className="text-foreground">Москва и Санкт-Петербург</p>
+                <p className="text-xs tracking-widest uppercase text-muted-foreground mb-2">Telegram</p>
+                <p className="text-foreground">@your_telegram</p>
               </div>
             </div>
           </div>
@@ -126,7 +125,7 @@ export function Contact() {
                   onChange={(e) => setFormState({ ...formState, message: e.target.value })}
                   rows={4}
                   className="w-full bg-transparent border-b border-border py-3 text-foreground placeholder:text-muted-foreground/50 focus:border-sage focus:outline-none transition-colors resize-none"
-                  placeholder="Расскажите о вашем проекте..."
+                  placeholder="Что вас беспокоит или интересует?"
                   required
                 />
               </div>

@@ -47,7 +47,7 @@ export function Philosophy() {
                 isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
               }`}
             >
-              Наша философия
+              О себе
             </p>
 
             <h2
@@ -55,10 +55,10 @@ export function Philosophy() {
                 isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
               }`}
             >
-              Искусство
-              <span className="italic"> осознанной</span>
+              Психология
+              <span className="italic"> без</span>
               <br />
-              жизни
+              лишних слов
             </h2>
 
             <div
@@ -67,13 +67,10 @@ export function Philosophy() {
               }`}
             >
               <p>
-                Мы верим, что каждое пространство таит в себе потенциал для преображения. Не через добавление,
-                а через бережное вычитание — открывая то, что всегда было предначертано.
+                Я студент-психолог, и эти статьи — мой способ делиться знаниями с теми, кто ещё не дошёл до кабинета специалиста, но уже чувствует, что хочет разобраться в себе.
               </p>
               <p>
-                Наш подход вдохновлён японской концепцией <em className="text-foreground">ма</em> — глубокой
-                красотой пустоты — и скандинавским пониманием
-                <em className="text-foreground"> хюгге</em>, этого ощущения уютного умиротворения.
+                Пишу о том, что происходит с нами в отношениях, в моменты тревоги и потерь — <em className="text-foreground">просто</em>, без диагнозов и сложных терминов. Только то, что действительно помогает.
               </p>
             </div>
 
@@ -84,16 +81,16 @@ export function Philosophy() {
               }`}
             >
               <div>
-                <p className="font-serif text-3xl md:text-4xl text-sage">12</p>
-                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Лет опыта</p>
+                <p className="font-serif text-3xl md:text-4xl text-sage">4+</p>
+                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Года обучения</p>
               </div>
               <div>
-                <p className="font-serif text-3xl md:text-4xl text-sage">140+</p>
-                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Проектов</p>
+                <p className="font-serif text-3xl md:text-4xl text-sage">∞</p>
+                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Интереса к людям</p>
               </div>
               <div>
-                <p className="font-serif text-3xl md:text-4xl text-sage">8</p>
-                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Наград</p>
+                <p className="font-serif text-3xl md:text-4xl text-sage">1</p>
+                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Честный взгляд</p>
               </div>
             </div>
           </div>

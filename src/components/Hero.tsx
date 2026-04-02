@@ -19,7 +19,7 @@ export function Hero() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
           }`}
         >
-          Студия дизайна интерьеров
+          Психологический блог
         </p>
 
         {/* Main Headline */}
@@ -28,8 +28,8 @@ export function Hero() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
-          Пространства,
-          <span className="block text-sage">которые дышат</span>
+          Понять себя —
+          <span className="block text-sage">уже смелость</span>
         </h1>
 
         {/* Subheadline */}
@@ -38,7 +38,7 @@ export function Hero() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
-          Японский минимализм в сочетании со скандинавским теплом. Мы создаём интерьеры, где есть место и смыслу, и красоте.
+          Пишу о психологии просто и честно — для тех, кто хочет лучше понимать себя, своих близких и то, что происходит внутри.
         </p>
 
         {/* CTA */}
@@ -51,7 +51,7 @@ export function Hero() {
             href="#contact"
             className="group inline-flex items-center gap-3 px-8 py-4 bg-sage text-primary-foreground text-sm tracking-widest uppercase hover:bg-sage/90 transition-all duration-500"
           >
-            Начать проект
+            Читать статьи
             <svg
               className="w-4 h-4 transition-transform duration-500 group-hover:translate-x-1"
               fill="none"
@@ -65,7 +65,7 @@ export function Hero() {
             href="#philosophy"
             className="inline-flex items-center gap-2 px-8 py-4 text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors duration-500"
           >
-            Наш подход
+            О себе
           </a>
         </div>
       </div>
