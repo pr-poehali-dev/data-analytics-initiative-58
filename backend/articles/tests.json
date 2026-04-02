@@ -1,0 +1,12 @@
+{
+  "tests": [
+    {
+      "name": "GET список статей",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 200,
+      "expectedBody": [],
+      "bodyMatcher": "partial"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+CREATE TABLE articles (
+  id SERIAL PRIMARY KEY,
+  tag VARCHAR(100) NOT NULL,
+  title VARCHAR(500) NOT NULL,
+  excerpt TEXT NOT NULL,
+  content TEXT NOT NULL,
+  read_time VARCHAR(20) NOT NULL DEFAULT '5 мин',
+  published BOOLEAN NOT NULL DEFAULT true,
+  created_at TIMESTAMP NOT NULL DEFAULT NOW(),
+  updated_at TIMESTAMP NOT NULL DEFAULT NOW()
+);
