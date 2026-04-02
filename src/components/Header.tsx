@@ -21,6 +21,12 @@ export function Header() {
               О себе
             </a>
             <a
+              href="#articles"
+              className="text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors duration-500"
+            >
+              Статьи
+            </a>
+            <a
               href="#services"
               className="text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors duration-500"
             >
@@ -69,6 +75,13 @@ export function Header() {
               className="text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors"
             >
               О себе
+            </a>
+            <a
+              href="#articles"
+              onClick={() => setIsMenuOpen(false)}
+              className="text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors"
+            >
+              Статьи
             </a>
             <a
               href="#services"
