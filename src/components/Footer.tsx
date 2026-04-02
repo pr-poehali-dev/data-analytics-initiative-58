@@ -5,7 +5,7 @@ export function Footer() {
         <div className="grid md:grid-cols-12 gap-12">
           {/* Logo & Tagline */}
           <div className="md:col-span-4">
-            <p className="font-serif text-2xl tracking-wide text-foreground mb-4">Психология</p>
+            <p className="font-serif text-2xl tracking-wide text-foreground mb-4">Тихое присутствие</p>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Блог о внутренней жизни человека. Просто. Честно. С заботой.
             </p>
@@ -63,7 +63,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="mt-16 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs text-muted-foreground">
-            &copy; {new Date().getFullYear()} Психология. Все права защищены.
+            &copy; {new Date().getFullYear()} Тихое присутствие. Все права защищены.
           </p>
           <p className="text-xs text-muted-foreground">Создано с намерением</p>
         </div>

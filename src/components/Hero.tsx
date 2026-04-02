@@ -19,7 +19,7 @@ export function Hero() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
           }`}
         >
-          Психологический блог
+          Тихое присутствие
         </p>
 
         {/* Main Headline */}
