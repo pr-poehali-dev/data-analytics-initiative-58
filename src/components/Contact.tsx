@@ -29,8 +29,9 @@ export function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // Handle form submission
-    console.log(formState)
+    const text = `Привет! Меня зовут ${formState.name}.\n\n${formState.message}\n\nОтветить: ${formState.email}`
+    const url = `https://t.me/festinalente_lin?text=${encodeURIComponent(text)}`
+    window.open(url, "_blank")
   }
 
   return (
@@ -69,13 +70,15 @@ export function Contact() {
             >
               <div>
                 <p className="text-xs tracking-widest uppercase text-muted-foreground mb-2">Почта</p>
-                <a href="mailto:hello@example.com" className="text-foreground hover:text-sage transition-colors">
-                  hello@example.com
+                <a href="mailto:angelina.zamyatina@mail.ru" className="text-foreground hover:text-sage transition-colors">
+                  angelina.zamyatina@mail.ru
                 </a>
               </div>
               <div>
                 <p className="text-xs tracking-widest uppercase text-muted-foreground mb-2">Telegram</p>
-                <p className="text-foreground">@your_telegram</p>
+                <a href="https://t.me/festinalente_lin" target="_blank" rel="noreferrer" className="text-foreground hover:text-sage transition-colors">
+                  @festinalente_lin
+                </a>
               </div>
             </div>
           </div>
